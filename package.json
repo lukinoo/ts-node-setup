@@ -4,9 +4,10 @@
   "description": "typescript node setup configuration",
   "main": "index.js",
   "scripts": {
+    "watch": "tsc --w",
     "build": "tsc",
     "start": "node index.js",
-    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node index.ts\""
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/index.ts\""
   },
   "repository": {
     "type": "git",
